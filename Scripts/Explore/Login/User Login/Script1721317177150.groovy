@@ -70,20 +70,23 @@ Session emailSession = Session.getInstance(properties, new Authenticator() {
 })
 
 // Conectar a la tienda de correos
+
+
 Store store = emailSession.getStore('pop3s')
 
 store.connect()
 
 Folder inbox = store.getFolder('INBOX')
 
-inbox.open(Folder.READ_ONLY)
+inbox.open(Folder.READ_WRITE)
 
 Message[] messages = inbox.getMessages()
 
+WebUI.delay(10)
+
 // Procesar solo el correo más reciente
 if (messages.length > 0) {
-    Message message = messages[(messages.length - 1)]
-
+    Message message = messages[messages.length - 1]
     String subject = message.getSubject()
 
     if (subject.contains('Benefit')) {
@@ -95,8 +98,8 @@ if (messages.length > 0) {
             String extractedText = matcher.group(1)
 
             println('Codigo OTP: ' + extractedText)
-
-            WebUI.click(findTestObject('Explore/Login User/Page_Explore/input_email_ibk-textfield__value_1'))
+			
+			WebUI.click(findTestObject('Explore/Login User/Page_Explore/input_email_ibk-textfield__value_1'))
 
             WebUI.setText(findTestObject('Explore/Login User/Page_Explore/input_email_ibk-textfield__value_1'), extractedText)
 
@@ -144,6 +147,7 @@ String getTextFromMimeMultipart(MimeMultipart mimeMultipart) throws Exception {
     
     return result
 }
+
 
 //// Crear una sesión con las propiedades y la autenticación
 //Session emailSession = Session.getInstance(properties, new Authenticator() {

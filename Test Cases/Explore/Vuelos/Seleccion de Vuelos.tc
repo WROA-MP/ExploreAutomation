@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Seleccion de Vuelos</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>448f6bc5-05a1-4a87-9c2d-34df3bb0336f</testCaseGuid>
+</TestCaseEntity>

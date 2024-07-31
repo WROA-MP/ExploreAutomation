@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Arequipa_img rounded-3 w-100 h-100</name>
+   <tag></tag>
+   <elementGuidId>668fce7d-9803-40fd-86c6-6cc10b69739d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='flights-rec-tab-pane']/div/div[4]/form/button/figure/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>f37f23ab-f244-4d18-986c-f759c9aaf467</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>img rounded-3 w-100 h-100</value>
+      <webElementGuid>8e615689-df96-47ec-a9f4-ded8135b3f1f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://a.storyblok.com/f/241071/501x393/4388ff34a0/miami.webp</value>
+      <webElementGuid>1448812f-6d21-4b99-a23b-d8e50556b52b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;flights-rec-tab-pane&quot;)/div[@class=&quot;row home-gutters w-100 mx-0&quot;]/div[@class=&quot;col-16 col-sm-8 col-lg-4 d-flex home-recommendation-container&quot;]/form[@class=&quot;button_to&quot;]/button[@class=&quot;link-btn mb-4 mb-sm-2 block-ui-modal flights-recommendation-suggestion&quot;]/figure[@class=&quot;figure position-relative mb-0&quot;]/img[@class=&quot;img rounded-3 w-100 h-100&quot;]</value>
+      <webElementGuid>3e0bfae5-5a5f-442c-82a2-cd061346ab79</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='flights-rec-tab-pane']/div/div[4]/form/button/figure/img</value>
+      <webElementGuid>26afcb14-a710-4ce4-be05-826fe0a41a13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[contains(@src,'https://a.storyblok.com/f/241071/501x393/4388ff34a0/miami.webp')]</value>
+      <webElementGuid>8f12e4ca-281b-43d9-80ae-62902f00b2fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[4]/form/button/figure/img</value>
+      <webElementGuid>fc981500-6cbc-4a66-9788-b66ea3eb736e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://a.storyblok.com/f/241071/501x393/4388ff34a0/miami.webp']</value>
+      <webElementGuid>71b2fa39-a70f-4d39-87e3-d82cb199bf3e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

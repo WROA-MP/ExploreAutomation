@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Vuelos</name>
+   <tag></tag>
+   <elementGuidId>9f36f209-631b-462e-9108-e5b577efe0de</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>label.btn.py-2.px-3.mx-0.mx-md-3</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Alojamientos'])[1]/following::label[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>9ab1f067-5ea2-41c4-9e4c-7bdb8bf86714</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn py-2 px-3 mx-0 mx-md-3</value>
+      <webElementGuid>20f39b43-85b5-461a-803d-4fd02791f88a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>search-flights</value>
+      <webElementGuid>d5701ef4-fa78-4dc1-81f5-a98c85992e73</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Vuelos</value>
+      <webElementGuid>bdeab26b-714d-400d-8800-719450a36d1c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;home index logged-in&quot;]/div[@class=&quot;main-container&quot;]/div[@class=&quot;home&quot;]/div[@class=&quot;container-md px-0 px-sm-2&quot;]/div[@class=&quot;muscle-main-form card form-shadow main mt-md-n6 mt-xxl-n8 mt-1&quot;]/div[@class=&quot;container-md&quot;]/div[@class=&quot;card-header bg-transparent pb-0&quot;]/div[@class=&quot;row justify-content-md-center justify-content-between&quot;]/div[@class=&quot;col-auto px-0 option&quot;]/label[@class=&quot;btn py-2 px-3 mx-0 mx-md-3&quot;]</value>
+      <webElementGuid>0ac9091d-3501-4ac5-a2da-548dbf69d3db</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alojamientos'])[1]/following::label[1]</value>
+      <webElementGuid>ccbf3393-3072-4795-bfec-195cae972452</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/following::label[2]</value>
+      <webElementGuid>52726dac-859f-4232-8d80-82fe9d48dc3c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Autos'])[1]/preceding::label[1]</value>
+      <webElementGuid>dedb6acc-701b-49b9-9107-a7be7c3d5726</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/label</value>
+      <webElementGuid>9ec63611-b633-43b2-b59a-f97bcb331cc9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Vuelos' or . = 'Vuelos')]</value>
+      <webElementGuid>457b49a6-9e9c-463c-9640-15d33d9a5243</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

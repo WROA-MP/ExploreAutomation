@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Antigua_img rounded-3 w-100 h-100</name>
+   <tag></tag>
+   <elementGuidId>d01454e3-c0c9-44ac-99fe-aa77f9ff192c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.link-btn.mb-4.mb-sm-2.block-ui-modal.flights-recommendation-suggestion > figure.figure.position-relative.mb-0 > img.img.rounded-3.w-100.h-100</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='flights-rec-tab-pane']/div/div/form/button/figure/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>4b3a3354-49f8-43ff-8902-9c07734fddef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>img rounded-3 w-100 h-100</value>
+      <webElementGuid>faade060-50ad-4498-a6bf-4d4b054487a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://a.storyblok.com/f/241071/501x393/ab1063d676/cusco.webp</value>
+      <webElementGuid>d68aa223-52ad-4c9a-acb6-f7311aa19835</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;flights-rec-tab-pane&quot;)/div[@class=&quot;row home-gutters w-100 mx-0&quot;]/div[@class=&quot;col-16 col-sm-8 col-lg-4 d-flex home-recommendation-container&quot;]/form[@class=&quot;button_to&quot;]/button[@class=&quot;link-btn mb-4 mb-sm-2 block-ui-modal flights-recommendation-suggestion&quot;]/figure[@class=&quot;figure position-relative mb-0&quot;]/img[@class=&quot;img rounded-3 w-100 h-100&quot;]</value>
+      <webElementGuid>92967630-45e5-41e9-9f9a-6997ac48dbb2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='flights-rec-tab-pane']/div/div/form/button/figure/img</value>
+      <webElementGuid>48ef62aa-5c5c-425e-8d8e-18a7668c455a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[contains(@src,'https://a.storyblok.com/f/241071/501x393/ab1063d676/cusco.webp')]</value>
+      <webElementGuid>2d58801c-1ec0-4063-ad80-5b9e982f9d97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/form/button/figure/img</value>
+      <webElementGuid>b186964f-92a1-4267-b76a-368b77e67394</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://a.storyblok.com/f/241071/501x393/ab1063d676/cusco.webp']</value>
+      <webElementGuid>cf0c91d3-3599-4fa3-a924-4539e960f6ac</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 127.0.0.0,,,30-07-2024 12:06:53,30-07-2024 12:07:53,59.246s,ERROR
+,,,,,,,
+Test Cases/Explore/Login/User Login,Chrome 127.0.0.0,,,30-07-2024 12:06:53,30-07-2024 12:07:20,26.959s,ERROR
+"openBrowser("""")",Chrome 127.0.0.0,,,30-07-2024 12:06:55,30-07-2024 12:06:57,1.983s,PASSED
+"navigateToUrl(""https://exploremuscle.com/"")",Chrome 127.0.0.0,,,30-07-2024 12:06:57,30-07-2024 12:07:01,4.581s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 127.0.0.0,,,30-07-2024 12:07:01,30-07-2024 12:07:01,0.070s,PASSED
+"click(findTestObject(""Object Repository/Explore/Login User/Page_Explore/a_Iniciar sesin""))",Chrome 127.0.0.0,,,30-07-2024 12:07:01,30-07-2024 12:07:02,0.500s,PASSED
+"click(findTestObject(""Object Repository/Explore/Login User/Page_Explore/input_DNI_ibk-textfield__value""))",Chrome 127.0.0.0,,,30-07-2024 12:07:02,30-07-2024 12:07:05,2.948s,PASSED
+"setText(findTestObject(""Object Repository/Explore/Login User/Page_Explore/input_DNI_ibk-textfield__value""), ""89822222"")",Chrome 127.0.0.0,,,30-07-2024 12:07:05,30-07-2024 12:07:05,0.367s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Explore/Login User/Page_Explore/input_Pass_ibk-textfield__value_1""), ""u7uNa5h1Ehdj3LDeO7sxX0oS9YL+xYSZ"")",Chrome 127.0.0.0,,,30-07-2024 12:07:05,30-07-2024 12:07:06,0.377s,PASSED
+"click(findTestObject(""Object Repository/Explore/Login User/Page_Explore/button_Ingresar""))",Chrome 127.0.0.0,,,30-07-2024 12:07:06,30-07-2024 12:07:06,0.315s,PASSED
+delay(5),Chrome 127.0.0.0,,,30-07-2024 12:07:06,30-07-2024 12:07:11,5.031s,PASSED
+properties = new java.util.Properties(),Chrome 127.0.0.0,,,30-07-2024 12:07:11,30-07-2024 12:07:11,0.013s,PASSED
+"properties.put(""mail.store.protocol"", ""pop3s"")",Chrome 127.0.0.0,,,30-07-2024 12:07:11,30-07-2024 12:07:11,0.001s,PASSED
+"properties.put(""mail.pop3s.host"", ""pop.gmail.com"")",Chrome 127.0.0.0,,,30-07-2024 12:07:11,30-07-2024 12:07:11,0.001s,PASSED
+"properties.put(""mail.pop3s.port"", ""995"")",Chrome 127.0.0.0,,,30-07-2024 12:07:11,30-07-2024 12:07:11,0.001s,PASSED
+"properties.put(""mail.pop3s.ssl.enable"", ""true"")",Chrome 127.0.0.0,,,30-07-2024 12:07:11,30-07-2024 12:07:11,0.001s,PASSED
+"properties.put(""mail.pop3s.starttls.enable"", ""true"")",Chrome 127.0.0.0,,,30-07-2024 12:07:11,30-07-2024 12:07:11,0.001s,PASSED
+"properties.put(""mail.pop3s.ssl.protocols"", ""TLSv1.2"")",Chrome 127.0.0.0,,,30-07-2024 12:07:11,30-07-2024 12:07:11,0.001s,PASSED
+"properties.put(""mail.pop3s.auth"", ""true"")",Chrome 127.0.0.0,,,30-07-2024 12:07:11,30-07-2024 12:07:11,0.001s,PASSED
+"username = ""qamusclemails@gmail.com""",Chrome 127.0.0.0,,,30-07-2024 12:07:11,30-07-2024 12:07:11,0.001s,PASSED
+"password = ""oqetsxgdjxsebxjb""",Chrome 127.0.0.0,,,30-07-2024 12:07:11,30-07-2024 12:07:11,0.001s,PASSED
+"emailSession = Session.getInstance(properties, new Script1721317177150$1(this, username, password))",Chrome 127.0.0.0,,,30-07-2024 12:07:11,30-07-2024 12:07:11,0.041s,PASSED
+"store = emailSession.getStore(""pop3s"")",Chrome 127.0.0.0,,,30-07-2024 12:07:11,30-07-2024 12:07:11,0.017s,PASSED
+store.connect(),Chrome 127.0.0.0,,,30-07-2024 12:07:11,30-07-2024 12:07:11,0.126s,PASSED
+"return new javax.mail.PasswordAuthentication(username, password)",Chrome 127.0.0.0,,,30-07-2024 12:07:11,30-07-2024 12:07:15,3.419s,PASSED
+"inbox = store.getFolder(""INBOX"")",Chrome 127.0.0.0,,,30-07-2024 12:07:15,30-07-2024 12:07:15,0.007s,PASSED
+inbox.open(READ_WRITE),Chrome 127.0.0.0,,,30-07-2024 12:07:15,30-07-2024 12:07:15,0.351s,PASSED
+messages = inbox.getMessages(),Chrome 127.0.0.0,,,30-07-2024 12:07:15,30-07-2024 12:07:15,0.378s,PASSED
+delay(5),Chrome 127.0.0.0,,,30-07-2024 12:07:15,30-07-2024 12:07:20,5.003s,PASSED
+"messages.sort({ java.lang.Object a, java.lang.Object b -> ... })",Chrome 127.0.0.0,,,30-07-2024 12:07:20,30-07-2024 12:07:20,0.053s,ERROR
+,,,,,,,
+Test Cases/Explore/Login/Seleccion de Vuelos,Chrome 127.0.0.0,,,30-07-2024 12:07:20,30-07-2024 12:07:53,32.110s,FAILED
+"click(findTestObject(""Object Repository/Explore/Vuelos/Page_Explore/label_Vuelos""))",Chrome 127.0.0.0,,,30-07-2024 12:07:21,30-07-2024 12:07:53,32.023s,FAILED

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Volver al inicio</name>
+   <tag></tag>
+   <elementGuidId>1500ba53-c673-4fa5-9484-d21fcd0faade</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='headlessui-dialog-panel-:r4:']/div/div/div/div/div/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>deefb530-423a-4fcf-8123-4d332b7c19b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>muscle-button btn-type-solid btn-size-full-length bold-text text-xs sm:text-sm md:text-base flex-1</value>
+      <webElementGuid>7d353e93-7ccb-410c-b690-c9e86c6b3595</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Volver al inicio</value>
+      <webElementGuid>54db63f4-2150-46b2-923f-393840d2cbbf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;headlessui-dialog-panel-:r4:&quot;)/div[@class=&quot;sm:flex flex-col sm:items-start p-2 h-full overflow-auto&quot;]/div[@class=&quot;mt-3 sm:mt-0 w-full flex flex-col items-center&quot;]/div[@class=&quot;flex flex-col gap-4 w-full max-w-md items-center&quot;]/div[@class=&quot;flex flex-col sm:flex-row gap-4 w-full sm:items-center h-full&quot;]/div[@class=&quot;flex flex-col flex-1&quot;]/button[@class=&quot;muscle-button btn-type-solid btn-size-full-length bold-text text-xs sm:text-sm md:text-base flex-1&quot;]</value>
+      <webElementGuid>0d5d7191-b449-4ca7-9a0e-3a52f1f9fbf2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='headlessui-dialog-panel-:r4:']/div/div/div/div/div/button</value>
+      <webElementGuid>8b61ab4e-4c55-4ff2-9bfe-c63351d953bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Iniciar sesión'])[2]/following::button[3]</value>
+      <webElementGuid>bb7c34ad-c361-456d-a3a0-1686a70a079e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Registrate aquí'])[1]/following::button[4]</value>
+      <webElementGuid>931a3e0b-f12e-41d3-aa37-c49290f265e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Volver al inicio']/parent::*</value>
+      <webElementGuid>bb0ad0f9-0e4c-4b41-9c2f-122cf6491e14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/div/div/button</value>
+      <webElementGuid>48671736-1572-47be-9b5b-654b9f3c0eaa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Volver al inicio' or . = 'Volver al inicio')]</value>
+      <webElementGuid>88a021fe-4b2b-4d41-a77d-97532a267c75</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
